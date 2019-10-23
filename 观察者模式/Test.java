@@ -9,6 +9,10 @@ import java.util.Observer;
  */
 public class Test {
 
+    /**
+    * 这里Observer和Observable类都用了jdk中自带的类
+    * 研究代码可以查看源码
+    */
     public static void main(String[] args) {
 
         Observer1Impl observer1 = new Observer1Impl();
